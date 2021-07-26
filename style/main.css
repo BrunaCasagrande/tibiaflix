@@ -45,7 +45,7 @@ header nav a:hover{
 
 .tibia-inicial{
     font-size: 12px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/imagens/tibia-inicial.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('imagens/tibia-inicial.jpg');
     height: 550px;
     background-size: cover;
     display: flex;
@@ -110,7 +110,7 @@ header nav a:hover{
 
 .tibia-sobre{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/imagens/tibia-sobre.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('imagens/tibia-sobre.jpg');
     height: 700px;
     background-size: contain;
     display: flex;
@@ -154,7 +154,7 @@ header nav a:hover{
 
 .tibia-vocacoes{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/imagens/tibia-vocacoes.png');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('imagens/tibia-vocacoes.png');
     height: 900px;
     background-size: cover;
     display: flex;
