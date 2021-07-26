@@ -1,0 +1,197 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*tibia inicial*/
+
+.tibia-inicial{
+    font-size: 12px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/imagens/tibia-inicial.jpg');
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.descricao{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.titulo{
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;   
+}
+
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+    
+}
+
+.box-tibia{
+    height: 225px;
+    width: 300px;
+    display: block;
+    transition: .5s ease all;
+    
+}
+
+.box-tibia:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+/*sobre*/
+
+.tibia-sobre{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/imagens/tibia-sobre.jpg');
+    height: 700px;
+    background-size: contain;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.titulo-sobre{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.vocacao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.descricao-sobre{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.video{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+/*vocacoes*/
+
+.tibia-vocacoes{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/imagens/tibia-vocacoes.png');
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-start;   
+}
+
+.lista-vocacoes{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.lista-vocacoes .itens{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*mapa*/
+
+.mapa-tibia{
+    width: 60%;
+    margin-top: 50px;
+    position: absolute;
+    align-items: center;
+    transition: .5s ease all; 
+}
+
+.imagem-mapa{
+    padding-left: 240px;
+}
+
+.mapa-tibia:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
